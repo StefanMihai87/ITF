@@ -16,9 +16,13 @@ Se vor afisa ambele array-uri element cu element folosind parcurgerea cu for.
      */
           public static void main(String[] args) {
               Scanner scanner = new Scanner(System.in);
+
                 System.out.println("Introduceti numarul de elemente: ");
+
                 int numarElementeArray = scanner.nextInt();
+
                 String[] array = new String[numarElementeArray];
+
                 for (int i = 0; i < numarElementeArray; i++) {
                     System.out.println("Introduceti elementul: " + (i + 1) );
                     array[i] = scanner.next();
@@ -34,6 +38,5 @@ Se vor afisa ambele array-uri element cu element folosind parcurgerea cu for.
                 for (int i = 0; i < numarElementeArray; i++) {
                     System.out.println(array[i] + " " + array2[i]);
                 }
-
     }
 }

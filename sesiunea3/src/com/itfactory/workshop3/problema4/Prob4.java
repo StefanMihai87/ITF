@@ -26,6 +26,5 @@ String[] cuvinte = textulMeu.split("\\s+") (O sa spargem textul in cuvinte in fu
             }
         }
         System.out.println("Numarul de cuvinte distincte din text este: " + count);
-
     }
 }

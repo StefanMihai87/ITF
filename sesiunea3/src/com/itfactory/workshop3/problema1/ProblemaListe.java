@@ -37,7 +37,5 @@ Parcurg lista si cand intalnesc valoarea 5 incrementez un contor. (Un contor ins
             }
         }
         System.out.println("Numarul 5 apare de " + contor + " ori");
-
     }
-
 }
